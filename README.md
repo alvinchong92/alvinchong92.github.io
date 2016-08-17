@@ -6,5 +6,5 @@
 -learn 2 code
 -get a job 
 
-### Spirit Animal 
-![Animal][https://media1.britannica.com/eb-media/80/150980-004-EE46999B.jpg]
+
+![Animal](https://media1.britannica.com/eb-media/80/150980-004-EE46999B.jpg)
