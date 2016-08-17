@@ -1,8 +1,11 @@
-h1 {text-align: center
+h1 {text-align: center;
 
 }
 
+h2{}
 
 .class {
-  background-color: light-blue;
+  font-size: 18 em;
+  background: url(https://media-cdn.tripadvisor.com/media/photo-s/03/9b/2d/f2/new-york-city.jpg);
 }
+
