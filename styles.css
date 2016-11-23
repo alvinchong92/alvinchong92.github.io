@@ -1,10 +1,49 @@
-h1 {
-  text-align: center;
-  font-size: 36px;
+body {
+  margin: 0;
+  background-image: url('https://unsplash.com/search/new-york-city?photo=buP5DXFAWTc');
+  background-repeat: no-repeat;
+}
+
+#content {
+  font-size: 90px;
+}
+
+#head {
+  left: 1rem;
+  font-size: 10px;
   font-family: 'Open Sans', sans-serif;
-  font-family: 'Montserrat', sans-serif;
+  margin: 0 auto;
+  height: 6.2rem;
+}
 
+#aboutMe {
+  font-size: 14px;
+  font-style: bold;
+  color: black;
+ }
 
+#contact {
+  font-size: 1rem;
+  position: relative;
+  left: 52rem;
+  bottom: 7rem;
+}
+
+#contact li a {
+  font-size: 0.8rem;
+  text-decoration: none;
+  color: black;
+}
+
+#projects {
+  font-size: 1rem;
+}
+
+#projects li a {
+  font-size: 0.8rem;
+  margin: 10px;
+  text-decoration: none;
+  color: black;
 }
 
 .top {
@@ -15,33 +54,54 @@ h1 {
   margin: 10px ;
 }
 
-p{
 
-  text-align:left;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Oxygen', sans-serif
-  margin: 10px;
-  font-size: 12px;
- }
-
-body {
-  background-color: #6495ed;
-  background-image: url(" http://www.wallpapermade.com/images/wallpapers/originals/nba-new-york-knicks-logo-wallpaper-3270.jpg");
-
-
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.a {
-background-color: white;
-border-style: groove;
-font-family: 'Open Sans', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Oxygen', sans-serif
-font-size:12px;
+ul.topnav li {float: left;}
 
+ul.topnav li a {
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px;
+}
 
+ul.topnav li a:hover {background-color: #555;}
 
+ul.topnav li.icon {float: right;}
+
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {display: none;}
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:680px) {
+  ul.topnav.responsive {position: relative;}
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
 }
 
 
