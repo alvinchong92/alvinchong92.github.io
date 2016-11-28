@@ -10,21 +10,14 @@ function myFunction() {
     }
 }
 
-// window.onload = $(document).ready(function() {
-//   $("#head").click(function() {
-//     $("div").animate({
-//       opacity: '0.5',
-//       fontsize: '2em'
-//     })
-//   })
-// })
+$(document).ready(function() {
+  $("#name").slideUp(1).delay("1000").slideDown('slow');
+  $("#content").slideUp(1).delay("2000").slideDown('slow');
+  })
 
 
-// window.onload = $(document).ready(function() {
-//   $("#head").click(function() {
-//     $("div").animate({
-//       opacity: '0.5',
-//       fontsize: '2em'
-//     })
-//   })
+// $(document).ready(function() {
+//   $("#name").slideDown("4000", function() {
+//     $("#name").css("visibility", "hidden" );
+//   });
 // })
