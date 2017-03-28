@@ -3,23 +3,10 @@ body {
   background-repeat: no-repeat;
 }
 
-#content {
-  font-size: 90px;
-}
-
 #head {
-  left: 1rem;
-  font-size: 10px;
   font-family: 'Open Sans', sans-serif;
   margin: 0 auto;
-  height: 6.2rem;
 }
-
-#aboutMe {
-  font-size: 14px;
-  font-style: bold;
-  color: black;
- }
 
  #name {
   font-size: 80px;
@@ -27,25 +14,30 @@ body {
   left: -100px;
  }
 
-#projects {
-  font-size: 1rem;
+ #content {
+  font-size: 90px;
+  color: darkslateblue;
 }
 
-#projects li a {
+ .aboutMe {
   font-size: 0.8rem;
-  margin: 10px;
+ }
+
+.project-head {
+  font-size: 0.8rem;
+  position: relative;
+  bottom: 7.9rem;
+  left: 54rem;
+}
+
+.projects li {
+  margin-bottom: 10px;
+}
+
+.projects li a {
   text-decoration: none;
   color: black;
 }
-
-.top {
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Oxygen', sans-serif
-  margin: 10px ;
-}
-
 
 ul.topnav {
   list-style-type: none;
@@ -54,7 +46,9 @@ ul.topnav {
   overflow: hidden;
 }
 
-ul.topnav li {float: right;}
+ul.topnav li {
+  float: right;
+}
 
 ul.topnav li a {
   display: inline-block;
