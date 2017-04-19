@@ -110,7 +110,6 @@ AboutMe
 .projects li a {
   text-decoration: none;
   color: black;
-  padding: 1.5em;
   min-width: 49px;
   min-height: 49px;
 }
